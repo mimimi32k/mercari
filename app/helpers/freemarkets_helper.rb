@@ -1,0 +1,2 @@
+module FreemarketsHelper
+end

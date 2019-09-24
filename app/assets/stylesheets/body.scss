@@ -1,0 +1,102 @@
+.trendy_article {
+  position: relative;
+  top: 100px;
+  height: 390px;
+  width: 100%;
+  background-color: #F5F5F5;
+  background-image: url("//www-mercari-jp.akamaized.net/assets/img/featured/camp/index/index_keyvisual.png?3296506464");
+  background-size: 100% 390px;
+  background-position: left top, left bottom;
+}
+.popular_categories {
+  position: relative;
+  top: 100px;
+  height: 175px;
+  background-color: white;
+  .heading_line {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #313131;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    .menu__item a {
+      text-decoration: none;
+      color: #313131;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      background-color: #EFEFEF;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+  }
+}
+.new_items {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  background-color: #EFEFEF;
+  .ladies {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    .Ladies_new_items {
+      display: flex;
+      justify-content: flex-start;
+      padding-top: 50px;
+      font-weight: bold;
+      font-size: 20px;
+      &__more a {
+        color: #6091d3;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 690px;
+      }
+    }
+    .ladies_largebox {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .ladies_box {
+        width: 180px;
+        height: 250px;
+        margin: 20px 0px 10px 0px;
+        background-color: palevioletred;
+      }
+    }
+  }
+  .mens {
+    .mens_new_items {
+      &__more {
+
+      }
+
+    }
+  }
+  .electrical {
+    .electrical_appliances_new_items {
+      &__more {
+
+      }
+    }
+  }
+  .toys {
+    .toys_new_items {
+      &__more {
+
+      }
+    }
+  }
+}
