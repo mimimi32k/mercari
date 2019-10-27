@@ -1,0 +1,221 @@
+.purchase-confirmation-page {
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 120vh;
+  font-family: 'Source Sans Pro', Helvetica , Arial, '游ゴシック体', 'YuGothic', 'メイリオ', 'Meiryo', sans-serif;
+  &__header {
+    height: 128px;
+    text-align: center;
+    position: relative;
+    img {
+      position: absolute;
+      top: 41px;
+      left: 624px;
+      width: 185px;
+      height: 49px;
+    }
+  }
+  &__main {
+    width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    &__title {
+      text-align: center;
+      font-size: 22px;
+      line-height: 1.5;
+      padding: 16px;
+      font-weight: bold;
+      color: #333;
+      border-bottom: solid;
+      border-color: #F5F5F5;
+      border-width: 0.5px;
+    }
+    &__item {
+      width: 700px;
+      height: 330px;
+      border-bottom: solid;
+      border-color: #F5F5F5;
+      border-width: 0.5px;
+      &__inner {
+        width: 320px;
+        height: 287px;
+        margin: 0 auto;
+        margin-top: 25px;
+        &__box {
+          display: flex;
+          &__image {
+          }
+          &__name {
+            width: calc(100% - 80px);
+            height: 64px;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-left: 16px;
+            font-weight: bold;
+            color: #333;
+          }
+        }
+        &__price {
+          display: flex;
+          justify-content: center;
+          align-items: baseline;
+          margin-top: 10px;
+          &__cost {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          &__postage {
+            font-size: 14px;
+            margin-left: 13px;
+          }
+        }
+        &__point {
+          width: 320px;
+          height: 48px;
+          background-color: #cccccc;
+          margin-top: 22px;
+          &__numbers {
+            color: gray;
+            text-align: center;
+            padding: 14px;
+            font-size: 14px;
+          }
+        }
+        &__payment-amount {
+          width: 320px;
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          &__title {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 17px 0;
+          }
+          &__number {
+            font-size: 25px;
+            padding: 16px 0;
+            font-weight: 600;
+          }
+        }
+        &__purchase-button {
+          background-color: #E61F17;
+          width: 320px;
+          height: 50px;
+          margin-top: 5px;
+          &__text {
+            position: relative;
+            top: 30%;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    &__address {
+      border-bottom: solid;
+      border-color: #F5F5F5;
+      border-width: 0.5px;
+      &__shipping {
+        padding-top: 20px;
+        height: 145px;
+        max-width: 320px;
+        margin: 0 auto; 
+        h3 {
+        font-weight: bold;
+        font-size: 14px;
+        }
+      }
+        &__postal-code {
+          margin-top: 3px; 
+          font-size: 14px;
+          line-height: 20px;
+          color: #333333;
+        }
+        &__user-name {
+          font-size: 14px;
+          color: #333333;
+        }
+        &__change {
+          text-align: right;
+          margin-top: 6px;
+          font-size: 14px;
+          a {
+            text-decoration: none;
+            color: #69B8F0;
+          }
+        }
+    }
+    &__payment {
+      height: 170px;
+      &__way {
+        padding-top: 25px;
+        height: 145px;
+        max-width: 320px;
+        margin: 0 auto; 
+        h3 {
+          font-weight: bold;
+          font-size: 14px;
+          }
+      }
+        &__number {
+          margin-top: 5px;
+          font-size: 14px;
+          color: #333333;
+        }
+        &__date {
+          font-size: 14px;
+          color: #333333;
+        }
+        &__logo {
+        }
+        &__change {
+          text-align: right;
+          margin-top: 6px;
+          font-size: 14px;
+          a {
+            text-decoration: none;
+            color: #69B8F0;
+          }
+        }
+    }
+  }
+  &__footer {
+    background-color: #F5F5F5;
+    height: 220px;
+    width: 100vw;
+    &__list {
+        display: flex;
+        justify-content: center;
+        li a {
+        color: rgb(51, 51, 51);
+        display: inline-block;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
+        width: 132px;
+        height: 20px;
+        margin-top: 35px;
+        }
+    }
+    &__logo {
+        width: 80px;
+        margin: 0 auto;
+        margin-top: 38px;
+      p {
+        width: 95px;
+        height: 14px;
+        margin-top: 1px;
+        small {
+          color: rgb(51, 51, 51);
+          width: 81px;
+          height: 17px;
+          font-size: 12px;
+          margin-top: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
